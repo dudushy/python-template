@@ -12,5 +12,6 @@ def clearConsole() -> None: #? Clear console
 def main() -> None:
     pass
 
+#! Main
 if __name__ == "__main__":
     main()
