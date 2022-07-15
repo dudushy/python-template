@@ -1,2 +1,2 @@
 # [template-python](https://github.com/dudushy/template-python/)
-Template for Python projects
+Template for Python projects.
