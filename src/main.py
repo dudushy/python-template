@@ -1,3 +1,4 @@
+# pip freeze | xargs pip uninstall -y
 # pip freeze > requirements.txt
 #* -- Imports
 import os
