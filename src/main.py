@@ -2,8 +2,10 @@
 # pip freeze > requirements.txt
 #* -- Imports
 import os
+import sys
 
 #* -- Variables
+title = "template-python" #? Title
 path = os.path.dirname(__file__) #? Directory path
 
 #* -- Functions
@@ -18,4 +20,5 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print(e)
+        _, _, exc_tb = sys.exc_info()
+        print(f"[{title}#__main__] error (line: {exc_tb.tb_lineno}): ", e)
